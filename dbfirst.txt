@@ -1,0 +1,18 @@
+Consegna:
+Modellizzare in un file di testo come visto questa mattina, la struttura di una tabella per memorizzare 
+tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+id - BIGINT - PRIMARY_KEY (NOTNULL, UNIQUE, AUTOINCREMENT, INDEX)
+marca - VARCHAR(20)
+modello - VARCHAR(20)
+allestimento - VARCHAR(15)
+alimentazione - stringVARCHAR(20)
+anno_immatricolazione - year (YYYY)
+chilometraggio - MEDIUMINT
+potenza_motore - SMALLINT
+cambio - VARCHAR(15)
+porte - TINYINT
+posti - TINYINT
+venditore - VARCHAR(20)
+condizioni_veicolo - VARCHAR(15)
+prezzo - decimal
