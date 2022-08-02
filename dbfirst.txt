@@ -2,6 +2,7 @@ Consegna:
 Modellizzare in un file di testo come visto questa mattina, la struttura di una tabella per memorizzare 
 tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
 
+nome tabella - auto_usate
 id - BIGINT - PRIMARY_KEY (NOTNULL, UNIQUE, AUTOINCREMENT, INDEX)
 marca - VARCHAR(20),NULL
 modello - VARCHAR(20),NULL
